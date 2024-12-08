@@ -4,7 +4,7 @@ $(document).ready(function(){
         "https://www.googleapis.com/youtube/v3/channels",{
             part:"contentDetails",
         forUsername : channelName,
-        key : 'AIzaSyAhziuaJ-Tyv-frID9RyKU872_0FiCk6nU'
+        key : 'xxxxxxxx'
         },
         function(data){
             $.each(data.items,function(i,item){
@@ -19,7 +19,7 @@ $(document).ready(function(){
                 part:"snippet",
             maxResults : 10,
             playlistId : x,
-            key : 'AIzaSyAhziuaJ-Tyv-frID9RyKU872_0FiCk6nU'
+            key : 'xxxxx'
             },
             function(data){
                 var output;
